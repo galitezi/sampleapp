@@ -1,0 +1,170 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Usuário acessa tela de cadastro de seguro veiculo",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6665842100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que o usuário abriu navegador",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.que_o_usuário_abriu_navegador()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3512236100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "acessar a url do sistema",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.acessar_a_url_do_sistema()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4149909000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sistema deve apresentar a tela de cadastro de seguro veiculo",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.sistema_deve_apresentar_a_tela_de_cadastro_de_seguro_veiculo()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-18T23:20:17.094Z",
+        "line": 13,
+        "name": "Cadastrar Veiculo na aplicaçãom de seguro auto",
+        "description": "",
+        "id": "cadastro-seguro-veiculo;cadastrar-veiculo-na-aplicaçãom-de-seguro-auto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 4954685600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que Preencheu o formulario na aba Vehcile Data",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.que_Preencheu_o_formulario_na_aba_Vehcile_Data()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1923729400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Preencheu o formulario na aba Insurante Data",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.preencheu_o_formulario_na_aba_Insurante_Data()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 819573600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Preencheu o formulario na aba Product Data",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.preencheu_o_formulario_na_aba_Product_Data()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 769234500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Preencheu o formulario na aba Select Price Option",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.preencheu_o_formulario_na_aba_Select_Price_Option()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1050597100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Preencheu p formulario na aba Sen quote",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.preencheu_p_formulario_na_aba_Sen_quote()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 78788900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Acionou a opção Concluir",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.acionou_a_opção_Concluir()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 9532026700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Sistema deve apresentar mensagem de sucesso",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.sistema_deve_apresentar_mensagem_de_sucesso()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4914881600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "registra as informações preenchidas no sistema seguro auto",
+            "match": {
+              "location": "stepFiles.CadastroAutoSteps.registra_as_informações_preenchidas_no_sistema_seguro_auto()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@teste1"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro Seguro Veiculo",
+    "description": "",
+    "id": "cadastro-seguro-veiculo",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/CadastroAuto.feature",
+    "tags": []
+  }
+]
